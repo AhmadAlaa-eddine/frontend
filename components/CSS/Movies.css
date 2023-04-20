@@ -1,0 +1,40 @@
+nav {
+  display: inline-block;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+nav ul li.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.icons {
+  width: 140px;
+  height: 140px;
+}
+
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-start;
+}
+
+.MovieItem {
+  flex: 1 0 calc(25% - 16px);
+  max-width: calc(25% - 16px);
+  min-width: 200px;
+}

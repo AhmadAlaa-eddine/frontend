@@ -1,0 +1,165 @@
+/* Login page */
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .form-container h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="email"],
+  .form-group input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .form-group input[type="submit"] {
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-group input[type="submit"]:hover {
+    background-color: #0d8bf0;
+  }
+  
+  .form-footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .form-footer a {
+    color: #2196f3;
+  }
+  
+  /* Signup page */
+  
+  .signup-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .signup-form-container h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form-group {
+    margin-bottom: 20px;
+  }
+  
+  .signup-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .signup-form-group input[type="text"],
+  .signup-form-group input[type="email"],
+  .signup-form-group input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .signup-form-group input[type="submit"] {
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-form-group input[type="submit"]:hover {
+    background-color: #0d8bf0;
+  }
+  
+  .signup-form-footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signup-form-footer a {
+    color: #2196f3;
+  }
+  
+  /* Forgot password page */
+  
+  .forgot-password-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  .signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    width: 300px;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  button {
+    margin-top: 16px;
+    padding: 8px 16px;
+    font-size: 16px
+  }  
+  
